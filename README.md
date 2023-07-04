@@ -1,4 +1,4 @@
-# healenium-example-maven
+# healenium-ai
 Java + Maven + Junit5 project with healenium usage example 
 
 ### To setup Healenium see the tutorial: https://www.youtube.com/watch?v=Ed5HyfwZhq4
@@ -12,11 +12,11 @@ Java + Maven + Junit5 project with healenium usage example
 
 To download this file into your project use this command:
 
-```$ curl https://raw.githubusercontent.com/healenium/healenium-example-maven/master/infra/docker-compose.yml -o docker-compose.yml```
+```$ curl https://raw.githubusercontent.com/debbhiesoy/healenium-ai/master/infra/docker-compose.yml -o docker-compose.yml```
 
 Create /db/sql folder on the same level in your project. Add init.sql file into ./db/sql/init.sql folder in your project via command:
 
-```$ curl https://raw.githubusercontent.com/healenium/healenium-client/master/example/init.sql -o init.sql```
+```$ curl https://raw.githubusercontent.com/debbhiesoy/healenium-ai/master/example/init.sql -o init.sql```
 
 Verify that images ```healenium/hlm-backend:3.2.5``` and ```postgres:11-alpine```  and ```healenium/hlm-selector-imitator:1.1``` are up and running
 
