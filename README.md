@@ -40,7 +40,7 @@ In ```BaseTest.java``` class select necessary driver: **LOCAL**, **PROXY** or **
 **LOCAL** - used for local run. It's been set by default in BaseTest.java class. For this driver should be used docker-compose file from test example.
 
 **PROXY** - used if you're running tests using healenium-proxy. For this driver you need to set docker-compose containers as in example by link:
-https://github.com/healenium/healenium-example-dotnet/blob/master/infra/docker-compose.yml
+https://github.com/debbhiesoy/healenium-ai/blob/master/infra/docker-compose.yml
 
 **REMOTE** - used if you-re running test on remote machine. Do not forget to provide necessary host. In this test example it's been used remote machine with Selenoid.
 
